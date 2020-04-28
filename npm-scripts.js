@@ -120,6 +120,8 @@ switch (task)
 
 	case 'postinstall':
 	{
+		console.log(`🎲  isWindows => ${isWindows}`)
+		
 		if (!isWindows)
 		{
 			execute('make -C worker');

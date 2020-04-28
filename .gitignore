@@ -6,7 +6,6 @@
 /worker/compile_commands.json
 
 # gyp generated stuff.
-/worker/out/
 /worker/**/*.xcodeproj/
 /worker/**/*.sln
 /worker/**/*.vcxproj

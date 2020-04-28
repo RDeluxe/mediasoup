@@ -6,6 +6,8 @@
 /worker/compile_commands.json
 
 # gyp generated stuff.
+!/worker/out/
+/worker/out/*
 /worker/**/*.xcodeproj/
 /worker/**/*.sln
 /worker/**/*.vcxproj
@@ -30,8 +32,9 @@
 /worker/scripts/configure.pyc
 
 # Vistual Studio generated Stuff.
+# Keep release
 /worker/**/Debug/
-/worker/**/Release/
+!/worker/**/Release/
 /worker/.vs/
 
 # Vistual Studio Code stuff.

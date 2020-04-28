@@ -124,11 +124,6 @@ switch (task)
 		{
 			execute('make -C worker');
 		}
-		else if (!process.env.MEDIASOUP_WORKER_BIN)
-		{
-			execute(`${PYTHON} ./worker/scripts/configure.py --format=msvs -R mediasoup-worker`);
-			execute(`${MSBUILD} ./worker/mediasoup-worker.sln /p:Configuration=${MEDIASOUP_BUILDTYPE}`);
-		}
 
 		break;
 	}
